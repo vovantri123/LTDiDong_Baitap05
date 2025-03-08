@@ -9,7 +9,7 @@
         android:id="@+id/textViewNameNote"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:text="Vi du SQLLite 1 "
         app:layout_constraintEnd_toStartOf="@+id/imageViewEdit"
@@ -19,9 +19,9 @@
 
     <ImageView
         android:id="@+id/imageViewDelete"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewEdit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageViewEdit"
@@ -30,12 +30,12 @@
 
     <ImageView
         android:id="@+id/imageViewEdit"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/textViewNameNote"
         app:layout_constraintEnd_toStartOf="@+id/imageViewDelete"
         app:layout_constraintTop_toTopOf="@+id/textViewNameNote"
-        app:layout_constraintVertical_bias="0.634"
+        app:layout_constraintVertical_bias="0.619"
         app:srcCompat="@drawable/edit" />
 </androidx.constraintlayout.widget.ConstraintLayout>
